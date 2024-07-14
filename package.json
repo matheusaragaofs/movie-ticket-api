@@ -1,0 +1,24 @@
+{
+  "name": "movie-ticket-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^5.16.2",
+    "express": "^4.19.2",
+    "prisma": "^5.16.2"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/main.ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.10",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.3"
+  }
+}
